@@ -148,7 +148,7 @@ machine = TocMachine(
             "dest": "start",
             "conditions": "restart",
         },
-        # {"trigger": "unlock_back_door", "source": ["back_door", "back",], "dest": "unlock_back_door"},
+
     ],
     initial="start",
     auto_transitions=False,
@@ -232,10 +232,6 @@ def webhook_handler():
             if machine.state == "start":
                 reply_token = event.reply_token
                 
-                # messages = [
-                #     "123","234"
-                # ]
-                # send_text_message(reply_token, messages)
 
                 send_button_message(
                     reply_token,
