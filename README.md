@@ -17,6 +17,8 @@ ngrok http 8000
 ```sh
 pipenv run python app.py
 ```
+## 架構
+![fsm](https://github.com/stanlet2000/line_project/blob/main/fsm.png)
 ## How to play
 開啟line bot後，隨便打字就可以觸發開始目錄，點擊目錄下方的開始即可進入遊戲\
 ![img](https://i.imgur.com/Mklgpwf.jpg)\
