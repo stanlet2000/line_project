@@ -1,5 +1,13 @@
 # Line Project
-## 如何開啟
+## Setup
+### 需求
+* Python 3.6
+* Pipenv
+* Ngrok
+  * 下載網址: https://ngrok.com/download
+### 前置作業
+去LINE的官網註冊一個LINE bot\
+然後將自己的 `.env` 中的 `LINE_CHANNEL_SECRET` 和 `LINE_CHANNEL_ACCESS_TOKEN` 替換成自己的
 ## How to play
 開啟line bot後，隨便打字就可以觸發開始目錄，點擊目錄下方的開始即可進入遊戲\
 (塞圖)\
