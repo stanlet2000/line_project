@@ -66,7 +66,7 @@ pipenv run python app.py
 ```math
 9\times 20^2 + 4\times 20^1 + 16\times 20^0 = 3696
 ```
-![img](https://i.imgur.com/z0HGlIW.jpg)
-13. 打開保險箱之後就會得到前門的鑰匙\
+![img](https://i.imgur.com/z0HGlIW.jpg)\
+12. 打開保險箱之後就會得到前門的鑰匙\
 最後只要回到主房間把前門打開就破關了!!
-!img\
+![img](https://i.imgur.com/jA1WWru.jpg)
