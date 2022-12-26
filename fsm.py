@@ -206,19 +206,7 @@ class TocMachine(GraphMachine):
         return text.lower() == "restart"
             
 
-    # def from_back_to_back_room(self, event):
-    #     text = event.message.text
-    #     if not text == "back room":
-    #         return False
 
-    #     if not self.back_door_unlock:
-    #         print("door is locked\n")
-    #         self.to_back_door()
-    #         return is_going_to_back_room(self,event)
-        
-    #     send_text_message(event.reply_token, "小房間")
-    #     print("back room")
-    #     return True
     def on_enter_start(self, event):
         print("start!!")
 
@@ -759,18 +747,3 @@ class TocMachine(GraphMachine):
             ],
         )
 
-    # def on_exit_menu(self):
-    #     print("Leaving menu")
-
-    # def on_exit_booking(self):
-    #     print("Leaving booking")
-    
-    # def on_enter_state2(self, event):
-    #     print("I'm entering state2")
-
-    #     reply_token = event.reply_token
-    #     send_text_message(reply_token, "Trigger state2")
-    #     self.go_back()
-
-    # def on_exit_state2(self):
-    #     print("Leaving state2")
